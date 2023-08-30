@@ -1,0 +1,8 @@
+[
+    {"id":"1" ,"name":"ANDROID"},
+    {"id":"2" ,"name":"IOS"},
+    {"id":"3" ,"name":"WEB"},
+    {"id":"4" ,"name":"USSD"},
+    {"id":"5" ,"name":"SMS"},
+    {"id":"6" ,"name":"POS"}
+]

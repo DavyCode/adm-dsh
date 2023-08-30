@@ -1,0 +1,67 @@
+.ant-table-wrapper {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  background-color: @white;
+  .ant-table {
+    font-size: 13px;
+  }
+  .ant-table-thead > tr > th {
+    font-family: "Roboto-Bold", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .ant-table-thead .ant-table-column-has-actions {
+    position: relative;
+    span {
+      margin-left: 5px;
+    }
+    & > svg {
+      position: absolute;
+      left: 0;
+      width: 18px;
+    }
+  }
+  .ant-table-row {
+    & > .ant-table-cell:last-of-type {
+      button {
+        background-color: @white;
+        border-radius: 0;
+        outline: none;
+        border: @secondary-color solid 1px;
+        border-radius: 3px;
+        line-height: 1;
+        color: @secondary-color;
+        height: 20px;
+        padding: 0 4px;
+      }
+    }
+  }
+}
+
+.ant-modal-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+}
+
+.adminservices-table {
+  & > div:first-of-type {
+    button {
+      background-color: @secondary-color;
+      border: none;
+    }
+  }
+
+  .ant-btn.create-service-button.ant-btn-primary {
+    background-color: @primary-color;
+    color: @white;
+  }
+  .display-table {
+    display: block;
+    text-align: center;
+    & > ul {
+      margin: 1.5em 0;
+    }
+  }
+}

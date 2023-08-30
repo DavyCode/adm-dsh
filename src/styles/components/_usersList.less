@@ -1,0 +1,42 @@
+.usersListContainer {
+  height: 50px;
+  border-bottom: #cfcfcf solid 1px;
+  &:nth-of-type(2n) {
+    background-color: darken(@white, 15%);
+  }
+  &:hover {
+    background-color: darken(@white, 30%);
+  }
+  div {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 2px;
+    span {
+      display: inline-block;
+      max-width: 100%;
+    }
+    span:first-of-type {
+      // height: 100%;
+      position: relative;
+      span {
+        position: absolute;
+        height: 90%;
+        width: 35%;
+        border-right: @primary-color 2px solid;
+        border-bottom: @primary-color 2px solid;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotateZ(40deg);
+      }
+    }
+  }
+  div:last-of-type {
+    button {
+      background-color: @primary-color;
+      color: @white;
+    }
+  }
+}

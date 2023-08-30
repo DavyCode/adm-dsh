@@ -1,0 +1,100 @@
+.serviceContainer {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  position: relative;
+  height: calc(100vh - 64px);
+  overflow: auto;
+
+  .ant-table-tbody > tr > td:nth-of-type(6) > span {
+    .ant-badge-status {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .ant-badge-status-dot {
+        width: 10px;
+        height: 10px;
+        align-self: flex-end;
+      }
+    }
+  }
+  .ant-row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .ant-col {
+      height: 100%;
+      flex: 1;
+    }
+  }
+  .ant-row > div:first-of-type {
+    .service-card {
+      color: darken(hsl(120, 100%, 50%), 20%);
+    }
+  }
+  .ant-row > div:nth-of-type(2) {
+    .service-card {
+      color: darken(hsla(42, 100%, 50%, 0.808), 0);
+    }
+  }
+  .ant-row > div:nth-of-type(3) {
+    .service-card {
+      color: darken(hsl(0, 100%, 50%), 10%);
+    }
+  }
+  .ant-row > div:nth-of-type(4) {
+    .service-card {
+      color: darken(hsla(177, 100%, 50%, 1), 20%);
+    }
+  }
+  .ant-row > div:last-of-type {
+    .service-card {
+      color: darken(hsla(42, 100%, 100%, 1), 50%);
+    }
+  }
+  .service-card {
+    background-color: #efeeee;
+    box-shadow: #efeeee 0px 0px 2px 2px, -6px -6px 10px hsla(0, 100%, 100%, 0.8),
+      6px 6px 13px hsla(0, 100%, 0%, 0.2);
+    flex: 1;
+    flex-basis: 20%;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-right: 3px;
+    height: 100%;
+    .ant-card-body {
+      padding: 5px;
+    }
+  }
+  .ant-table {
+    line-height: 1;
+    font-size: 15px;
+    background-color: @white;
+  }
+  .ant-table-thead {
+    font-family: "Roboto-Bold", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+  }
+
+  .services-table-button.ant-btn,
+  .commissions-table-button.ant-btn {
+    background-color: @white;
+    border-radius: 0;
+    outline: none;
+    border: lighten(@primary-color, 30%) solid 1px;
+    border-radius: 3px;
+    line-height: 1;
+    color: lighten(@primary-color, 30%);
+    height: 20px;
+    padding: 0 4px;
+  }
+
+  .display-table {
+    display: block;
+    text-align: center;
+    & > ul {
+      margin: 1.5em 0;
+    }
+  }
+}

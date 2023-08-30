@@ -1,0 +1,28 @@
+.search-field {
+  .ant-input-group-addon {
+    padding: 0 !important;
+    background-color: @primary-color;
+  }
+
+  .ant-input-search-enter-button input + .ant-input-group-addon {
+    height: 100%;
+  }
+
+  .ant-btn.ant-input-search-button.ant-btn-primary {
+    background-color: @primary-color;
+    color: @white;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+  }
+
+  .ant-input {
+    outline: none;
+    &:focus {
+      outline: none;
+    }
+    &::hover {
+      outline: none;
+    }
+  }
+}

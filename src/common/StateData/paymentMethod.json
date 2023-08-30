@@ -1,0 +1,11 @@
+[
+   { "id":"1","name":"BANK"} ,
+     { "id":"2","name":"CARD"},
+{ "id":"3","name":"WALLET"},
+{ "id":"4","name":"COMMISSION_WALLET"},
+{ "id":"5","name":"POS"},
+{ "id":"6","name":"SMS"},
+{ "id":"7","name":"DIRECT_CREDIT"},
+{ "id":"8","name":"ACCOUNT_TRANSFER"},
+{ "id":"9","name":"COMMISSION_TRANSFER"}
+]

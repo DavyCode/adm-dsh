@@ -1,0 +1,19 @@
+[
+    {"id":"1", "name":"AIRTIME"},
+    {"id":"2", "name":"DATA"},
+    {"id":"3", "name":"CABLETV"},
+    {"id":"4", "name":"ELECTRICITY"},
+    {"id":"5", "name":"TRANSFER"},
+    {"id":"6", "name":"BULK_TRANSFER"},
+    {"id":"7", "name":"WITHDRAW"},
+    {"id":"8", "name":"POS"},
+    {"id":"9", "name":"FUND"},
+    {"id":"10", "name":"WAEC"},
+    {"id":"11", "name":"JAMB"},
+    {"id":"12", "name":"REFUND"},
+    {"id":"13", "name":"NULL"},
+    {"id":"14", "name":"BVN"},
+    {"id":"15", "name":"SMS"},
+    {"id":"16", "name":"REFERRAL"},
+    {"id":"17", "name":"OTP"}
+]

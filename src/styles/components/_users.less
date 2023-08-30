@@ -1,0 +1,86 @@
+.usersContainer {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: @white;
+  min-height: calc(100vh - 64px);
+  position: relative;
+
+  .return-button-container {
+    padding: 5px;
+    text-align: end;
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    z-index: 1;
+    button {
+      color: @secondary-color;
+      border: 1px solid @secondary-color;
+      border-radius: 3px;
+    }
+  }
+  .usersTable > .ant-pagination {
+    margin: 1.5em 0;
+    text-align: center;
+  }
+
+  .user-information {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    button:not(:first-of-type) {
+      background-color: @white;
+      margin-left: 0.5em;
+      border: 1px solid @secondary-color;
+      color: @secondary-color;
+    }
+  }
+  .user-table-button.ant-btn {
+    background-color: @white;
+    border: 1px solid @secondary-color;
+    color: @secondary-color;
+    outline: none;
+    border-radius: 3px;
+    line-height: 1;
+    height: 20px;
+    padding: 0 4px;
+  }
+}
+
+.ant-table-thead {
+  & > tr > th {
+    text-align: center;
+  }
+}
+
+.ant-table-tbody {
+  & > tr > td {
+    text-align: center;
+  }
+}
+
+.userListContainer {
+}
+
+.usersTableHeader {
+  height: 50px;
+  border-bottom: #cfcfcf solid 1px;
+  text-transform: uppercase;
+  font-weight: 800;
+  div {
+    text-align: center;
+    padding: 2px;
+    span:first-of-type {
+      // height: 100%;
+      position: relative;
+      span {
+        position: absolute;
+        height: 90%;
+        width: 35%;
+        border-right: @primary-color 2px solid;
+        border-bottom: @primary-color 2px solid;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotateZ(40deg);
+      }
+    }
+  }
+}

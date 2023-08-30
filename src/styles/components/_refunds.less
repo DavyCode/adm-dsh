@@ -1,0 +1,54 @@
+.refunds-container {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: @white;
+  padding: 10px;
+  min-height: calc(95vh - 68px);
+  max-width: 40%;
+  margin: 0 auto;
+  border-radius: 3px;
+  .ant-card.ant-card-bordered {
+    font-size: 16px;
+    border: 1px solid #9b9b9b;
+  }
+  .ant-card-body {
+    & > div {
+      margin-bottom: 2em;
+      label {
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: 600;
+      }
+      & > div > input {
+        border: 1px solid #9b9b9b;
+        width: 100%;
+        outline: none;
+        padding: 5px;
+      }
+    }
+    & > div:nth-of-type(2) {
+      margin-bottom: 4em;
+    }
+    & > div:last-of-type {
+      text-align: center;
+      button {
+        background-color: @secondary-color;
+        color: @white;
+        width: 100%;
+        padding: 5px 0;
+        border: none;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+    }
+  }
+  .ant-card-head-title {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .ant-card-head {
+    border-bottom: 1px solid #9b9b9b;
+  }
+}

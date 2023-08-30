@@ -1,0 +1,79 @@
+.ant-modal-root {
+  .ant-modal.platform-modal {
+    .ant-modal-close {
+      display: none;
+    }
+    width: 25% !important;
+    .update-service {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      input[type="text"] {
+        width: 100%;
+        border: 1px solid #d9d9d9;
+        padding: 5px;
+        outline: none;
+        display: inline-block;
+        margin: 0 auto 1em;
+        border-radius: 2px;
+        transition: all 0.2s linear;
+        &:hover {
+          border: 1px solid #40a9ff;
+        }
+      }
+      & > label {
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      & > span {
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        & ~ div {
+          margin: 0 auto 1em;
+        }
+      }
+    }
+
+    .ant-modal-footer > div {
+      & > button:first-of-type {
+        background-color: #ffffff;
+        border-radius: 0;
+        outline: none;
+        border: @secondary-color solid 1px;
+        border-radius: 3px;
+        line-height: 1;
+        color: @secondary-color;
+        height: 24px;
+        padding: 0 4px;
+      }
+      & > button:last-of-type {
+        background-color: #ffffff;
+        border-radius: 0;
+        outline: none;
+        border: @secondary-color solid 1px;
+        border-radius: 3px;
+        line-height: 1;
+        color: @secondary-color;
+        height: 24px;
+        width: 100px;
+        padding: 0 4px;
+        span {
+          margin-left: 5px;
+        }
+      }
+    }
+    .ant-modal-footer {
+      text-align: center;
+    }
+
+    .ant-select-dropdown {
+      .ant-select-item-option-active.ant-select-item-option-selected {
+        background-color: @secondary-color;
+      }
+    }
+  }
+}
